@@ -1938,6 +1938,9 @@ GameObject:
   - component: {fileID: 2046029328849986511}
   - component: {fileID: 3778134736406145324}
   - component: {fileID: -956469381102500326}
+  - component: {fileID: 9183476121274913084}
+  - component: {fileID: 1448351738861056654}
+  - component: {fileID: -7913538706029474421}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1953,14 +1956,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8861819865301580995}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0015620597, y: 0.99847406, z: 0.019827902, w: -0.05151655}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 2.2, y: 0.05, z: 13.38}
   m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 498277710548201736}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -2.26, y: 185.913, z: -0.296}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &3778134736406145324
 Animator:
   serializedVersion: 5
@@ -1994,7 +1997,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754db7c728723174d8e0e47a30588722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 5
+--- !u!114 &9183476121274913084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861819865301580995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee54e7f7a0d91b4a9af92c6e2c685d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1448351738861056654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861819865301580995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.638197, y: 28.749454, z: 53.30748}
+  m_Center: {x: -1.3617542, y: 13.874719, z: -3.3329062}
+--- !u!114 &-7913538706029474421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861819865301580995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6e47f71bedadf4eb220ebfa63aea03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8998713598983630854
 GameObject:
   m_ObjectHideFlags: 0
